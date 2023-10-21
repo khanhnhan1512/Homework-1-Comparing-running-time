@@ -89,7 +89,7 @@ void record_time(int size_matrix[], int n)
 int main()
 {
     vector<vector<int>> matrixA, matrixB;
-    int size_matrix[] = {10, 50, 100, 250, 500, 750, 1000};
+    int size_matrix[] = {10, 100, 250, 500, 750, 1000, 2000};
     int n = sizeof(size_matrix)/sizeof(size_matrix[0]);
     record_time(size_matrix, n);
     return 0;
